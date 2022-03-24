@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgray;
+}
+.main{
+    width: 9px;
+    height: 9px;
+    background-color: black;
+    margin: 100px auto;
+    border-radius: 100%;
+    box-shadow:
+    40px 0 0 0px black,
+    
+    /* nose */
+    20px 25px 1px 9px yellow,
+    
+    /* mouth */
+    0px 50px 0 -2px black,
+    10px 53px 0 -2px black,
+    20px 55px 0 -2px black,
+    30px 53px 0 -2px black,
+    40px 50px 0 -2px black,
+    
+    /* buttons */
+    20px 120px 0 2px black,
+    20px 140px 0 2px black,
+    20px 160px 0 2px black,
+    20px 180px 0 2px black,
+    
+    /* head */
+    20px 20px 0 50px white,
+    20px 20px 1px 50px black,
+    /* left ear 
+    -40px -20px 0 15px white,
+    -40px -20px 1px 15px black,
+    
+     right ear 
+    80px -20px 0 15px white,
+    80px -20px 1px 15px black,
+    */
+    /* body */
+    20px 150px 0 100px white,
+    20px 150px 1px 100px black,
+    /* last circle */
+    20px 600px 0 400px #486049;
+    
+}
+.desc{
+    text-align: center;
+    font-size: 25px;
+    margin: 320px 0 auto;
+    background-color: lightgray;
+    width: 380px;
+    height: 50px;
+    line-height: 65px;
+    letter-spacing: 2px;
+    margin: 320px auto;
+    text-transform: capitalize;
+    box-shadow: 
+    1px 1px 10px 2px #6F7FFF;
+    border-radius: 10px;
+}
